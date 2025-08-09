@@ -1,0 +1,17 @@
+@tailwind base;        /* Resets de CSS y estilos base de Tailwind */
+@tailwind components;  /* Clases para componentes predefinidos (botones, cards, etc.) */
+@tailwind utilities;   /* Todas las clases de utilidad (flex, text-red-500, p-4, etc.) */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

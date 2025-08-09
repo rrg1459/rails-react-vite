@@ -1,0 +1,25 @@
+inherit_from: .rubocop_todo.yml
+
+plugins:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/20250722132805_devise_token_auth_create_users.rb'
+    - 'db/migrate/20250725130505_add_lockable_to_users.rb'
+    - 'db/migrate/20250725141300_add_trackable_to_users.rb'
+    - 'db/schema.rb' # Ejemplo de archivo generado
+    - 'db/seeds.rb'  # Ejemplo de archivo con métodos largos para datos
+    - 'app/controllers/v1/users_controller.rb'
+
+Rails/BulkChangeTable:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 80 # Cambia la longitud máxima de línea a 120 caracteres

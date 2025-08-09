@@ -1,0 +1,18 @@
+{
+  "email": "Correo Electrónico",
+  "password": "Contraseña",
+  "name": "Nomnbre",
+  "confirm_password": "Confirmar Contraseña",
+  "sign_in": "Iniciar Sesión",
+  "users_list": "Usuarios (Protegidos)",
+  "forgot_password": "¿Olvidaste tu contraseña",
+  "register": "Registrarse",
+  "register_sign_up": "¿No tienes una cuenta? Regístrate",
+  "register_sign_in": "¿Ya tienes una cuenta? Iniciar Sesión",
+  "session_actions": {
+    "active_session": "Sesión Activa",
+    "uid": "Estás autenticado con UID",
+    "log_out": "Cerrar Sesión",
+    "get_users": "Obtener Usuarios"
+  }
+}
